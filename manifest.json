@@ -1,0 +1,22 @@
+{
+  "name": "GitHub PR Comment Injection",
+  "description": "Add comments to a PR",
+  "version": "0.1",
+  "manifest_version": 3,
+  "icons": {
+    "16": "assets/icons/16.png",
+    "48": "assets/icons/48.png",
+    "128": "assets/icons/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/pull/*"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "assets/js/populate.js"
+      ]
+    }
+  ]
+}
