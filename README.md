@@ -2,6 +2,8 @@
 
 A first-pass Chrome extension for adding a button to GitHub PRs as a convenience for pasting standard text into a comment.
 
+See the [PR Coup! blog post](https://qahiccupps.blogspot.com/2022/12/pr-coup.html) for some background.
+
 ## Installation
 
 * Copy this directory to somewhere local, call it `D`
